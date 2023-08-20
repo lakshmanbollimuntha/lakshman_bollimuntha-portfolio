@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide|Sofia|Trirong">
+
+    <script>
+        function scrollToSection(event, sectionId) {
+            event.preventDefault();
+            const section = document.getElementById(sectionId);
+            section.scrollIntoView({ behavior: 'smooth' });
+        }
+    </script>
+
+</head>
+
+<body id="home">
+    <header >
+        <nav>
+            <div id="stik"class="left">Laksh<span>&lt;man&#47&gt;</span></div>
+            <div id="stik"class="right">
+                <ul>
+                    <li><a href="#" onclick="scrollToSection(event, 'home')">HOME</a></li>
+                    <li><a href="#" onclick="scrollToSection(event, 'about')">ABOUT</a></li>
+                    <li><a href="#" onclick="scrollToSection(event, 'skills')">SKILLS</a></li>
+                    <li><a href="#" onclick="scrollToSection(event, 'contact')">CONTACT</a></li>
+                    
+                </ul>
+                
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="pic">
+                <img src="ringpic.png">
+            </div>
+            <div class="leftsection">
+                My Name is <span>Lakshman</span>
+                <div>And I'm Passionate</div>
+                <span id="element"></span><br>
+                <button class="btn"><a class="resume" href="lakshman resume.pdf">Resume</a></button>
+            </div>
+        </section>
+        <div id="about" class="space"></div>
+
+        
+        <section class="secondsection">
+            <div class="about"><h1>ABOUT &nbsp;<span>Me</span></h1></div>
+            <div class="para"><p>👋 Hey there! I'm Lakshman, an aspiring Frontend <span>Developer</span> with a growth mindset and a passion for creating exceptional user experiences. I specialize in HTML, CSS, JavaScript, and frameworks. With my ability to easily fit into a group, I thrive in collaborative environments. I also have a sense of humor that adds a touch of creativity to my work. In addition, I'm keen on exploring AI tools to enhance my development process and streamline efficiency. Continuously improving my prompt engineering skills, I stay updated with the latest industry trends.</p></div>
+        </section>
+        <div id ="skills"class="spacesecond"></div>
+        <h2 class="skills">SKILLS</h2>
+        
+        <section id="super"class="thirdsection">
+            
+            
+            <div >
+                
+                <ul class="a">
+                    <li><a href="https://www.udemy.com/certificate/UC-e5e92f90-558a-4067-973d-a49a1d2abb3c/">HTML</a></li><br>
+                    <li><a href="https://www.udemy.com/certificate/UC-e5e92f90-558a-4067-973d-a49a1d2abb3c/">CSS</a></li><br>
+                    <li><a href="https://www.udemy.com/certificate/UC-96f5fea2-cbd0-45c6-8dc1-2a983db85035/">JavaScript</a></li><br>
+                </ul>
+            </div>
+            <div>
+                <ul class="b">
+                    <li><a href="https://www.udemy.com/certificate/UC-587b8e57-75f7-4d65-9dcd-b9492d036514/">Python</a></li><br>
+                    <li><a href="https://www.udemy.com/certificate/UC-ace9536b-b6c5-43f8-a737-39fbc7fc9985/">Git</a></li><br>
+                    <li><a href="">Sql</a></li><br>
+                </ul>
+            </div>
+            <div>
+                <ul class="c">
+                    <li><a href="https://api.growthschool.io/certificate/4ffbeca0-c308-4545-821f-56ce9b34c59b">Prompt engineering</li><br>
+                    <li><a href="">Time Managment</li><br>
+                    <li><a href="">Frontend Devloper</a></li><br>
+                </ul>
+            </div>
+        
+        </section>
+        <div id ="skills"class="spacesecond"></div>
+        <section class="fourthsection">
+            <h3 id="contact">Contact <span>Me</span></h3>
+            <div class="form contact">
+                <form >
+                  <label for="fname">Enter Your Name :</label><br>
+                  <input type="text" id="fname" name="firstname" placeholder="Your name" required><br>
+              
+                  <label for="lname">Enter Your Email :</label><br>
+                  <input type="text" id="lname" name="lastname" placeholder="Your email" required><br>
+              
+                 
+                
+                  <input type="submit" value="Submit"><br>
+                  <div class="cv">
+                    <button class="btn"><a class="resume"  href="lakshman resume.pdf" download>Download CV</a></button>
+                    
+                  </div>
+                </form>
+              </div>
+              
+                
+        </section>
+        <div id ="skills"class="spacesecond"></div>
+        <footer class="foot">
+            <div class="footer">
+              <ul>
+                <li><a href="http://www.linkedin.com/in/L440
+                  "><i class="fab fa-linkedin"></i></a></li>
+                <li><a href="https://github.com/lakshmanbollimuntha"><i class="fab fa-github fa-shake"></i></a></li>
+                <li ><a href="#" onclick="scrollToSection(event, 'home')"><i class="fa fa-arrow-up" aria-hidden="true"></i></a></li>
+                  
+                 
+              </ul>
+            </div>
+        </footer>
+        </main>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Fresher   ', 'Frontend Devloper'],
+          typeSpeed: 50,
+        });
+      </script>
+</body>
+
+</html>
